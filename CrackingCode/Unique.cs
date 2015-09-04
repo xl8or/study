@@ -13,8 +13,7 @@ namespace CrackingCode
         {
             foreach (char c in s)
             {
-                int count = s.Where(x => x == c).Count();
-                if (count > 1)
+                if (s.Where(x => x == c).Count()> 1)
                 { return false; }
             }
             return true;

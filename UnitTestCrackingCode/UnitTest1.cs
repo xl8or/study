@@ -22,11 +22,11 @@ namespace UnitTestCrackingCode
             Assert.AreEqual(false, actual);
         }
          [TestMethod]
-        public void CheckcaseFalseCases()
+        public void CheckCaseTrueCases()
         {
             var uni = new Unique();
             bool actual = Unique.unique("ABCDEFGa");
-            Assert.AreEqual(false, actual);
+            Assert.AreEqual(true, actual);
         }
 
     }
