@@ -5,29 +5,28 @@ using CrackingCode;
 namespace UnitTestCrackingCode
 {
     [TestClass]
-    public class UniqueTest
+    public class UnitChapter1
     {
         [TestMethod]
         public void CheckTrueCases()
         {
-            var uni=new Unique();
-            bool actual= Unique.unique("ABCDEFG");
+            //var uni=new Unique();
+            bool actual= Chapter1.unique("ABCDEFG");
             Assert.AreEqual(true, actual);
         }
          [TestMethod]
         public void CheckFalseCases()
         {
-            var uni = new Unique();
-            bool actual = Unique.unique("ABCDEFGA");
+            //var uni = new Unique();
+            bool actual = Chapter1.unique("ABCDEFGA");
             Assert.AreEqual(false, actual);
         }
          [TestMethod]
         public void CheckCaseTrueCases()
         {
-            var uni = new Unique();
-            bool actual = Unique.unique("ABCDEFGa");
+            //var uni = new Unique();
+            bool actual = Chapter1.unique("ABCDEFGa");
             Assert.AreEqual(true, actual);
         }
-
     }
 }

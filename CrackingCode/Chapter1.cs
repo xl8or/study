@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrackingCode
 {
-    public class Unique
+    public class Chapter1
     {
 
         public static bool unique(string s)

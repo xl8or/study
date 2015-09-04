@@ -10,7 +10,7 @@ namespace CrackingCode
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Unique.unique("ABCDa"));
+            Console.WriteLine(Chapter1.unique("ABCDa"));
         }
     }
 }
