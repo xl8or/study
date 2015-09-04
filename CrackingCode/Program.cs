@@ -11,6 +11,7 @@ namespace CrackingCode
         public static void Main(string[] args)
         {
             Console.WriteLine(Chapter1.unique("ABCDa"));
+            Console.WriteLine(string.Join(" ", Chapter1.FindPermutations("AB")));
         }
     }
 }

@@ -18,5 +18,19 @@ namespace CrackingCode
             }
             return true;
         }
+        public static string[] FindPermutations(string s)
+        {
+            if (s.Length == 2)
+            {
+                char[] _c = s.ToArray();
+                string new_s = new string(new char[] { _c[1], _c[0] });
+                return new string[]
+                    {
+                        s,new_s
+                    };
+            }
+            return new string[]{s};
+        }
+
     }
 }
