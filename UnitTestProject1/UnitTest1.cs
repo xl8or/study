@@ -31,7 +31,7 @@ namespace UnitTestCrackingCode
         [TestMethod]
         public void CheckEscapeSpaces()
         {
-            string actual = Chapter1.escape_spaces("This is Sample");
+            string actual = Chapter1.Escape_spaces("This is Sample");
             Assert.AreEqual("This%20is%20Sample", actual);
         }
     }
