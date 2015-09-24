@@ -12,6 +12,7 @@ namespace CrackingCode
         {
             Console.WriteLine(Chapter1.unique("ABCDa"));
             Console.WriteLine(string.Join(" ", Chapter1.FindPermutations("AB")));
+            Console.WriteLine(Chapter1.escape_spaces("This is sample"));
         }
     }
 }

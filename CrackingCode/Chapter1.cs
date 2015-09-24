@@ -31,6 +31,14 @@ namespace CrackingCode
             }
             return new string[]{s};
         }
+        //1-3
+        public static string escape_spaces(string s)
+        {
+            StringBuilder sb = new StringBuilder(s);
+            sb.Replace(" ","%20");
+            string result = sb.ToString();
+            return result;
+        }
 
     }
 }
