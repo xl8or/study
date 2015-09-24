@@ -28,5 +28,11 @@ namespace UnitTestCrackingCode
             bool actual = Chapter1.unique("ABCDEFGa");
             Assert.AreEqual(true, actual);
         }
+        [TestMethod]
+        public void CheckEscapeSpaces()
+        {
+            string actual = Chapter1.escape_spaces("This is Sample");
+            Assert.AreEqual("This%20is%20Sample", actual);
+        }
     }
 }
